@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Didact Gothic';
+}
+
+/* background-img */
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* formatting all contents */
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav .logo{
+    width: 80px;
+    margin: 10px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    margin: 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.content{
+    text-align: center;
+}
+.content h1{
+    font-size: 160px;
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 4px 1px 8px #000000;
+}
+.back_video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+/* maintain video aspect ratio */
+
+@media (min-aspect-ratio: 16/9){
+    .back_video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .back_video{
+        width: auto;
+        height: 100%;
+    }
+}
+/* .footer{
+    height: 200px;
+    width: 1
+    display: inline-block;
+} */
+footer p a {
+    text-align: left;
+    text-decoration: none;
+    color: rgb(199, 153, 97);
+}
