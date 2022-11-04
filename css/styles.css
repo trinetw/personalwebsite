@@ -76,16 +76,18 @@ nav ul li a{
         height: 100%;
     }
 }
-/* .footer{
-    height: 200px;
-    width: 1
-    display: inline-block;
-} */
+.footer{
+    position: absolute;
+    bottom: 0;
+   
+
+}
 footer p a {
     text-align: left;
     text-decoration: none;
     color: rgb(199, 153, 97);
 }
+
 input[type=text], select {
     width: 100%;
     padding: 12px 20px;
