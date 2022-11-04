@@ -50,7 +50,7 @@ nav ul li a{
     text-align: center;
 }
 .content h1{
-    font-size: 160px;
+    font-size: 11vw;
     color: #fff;
     font-weight: 600;
     text-shadow: 4px 1px 8px #000000;
@@ -85,7 +85,7 @@ nav ul li a{
 footer p a {
     text-align: left;
     text-decoration: none;
-    color: rgb(199, 153, 97);
+    color: rgb(35, 61, 18);
 }
 
 input[type=text], select {
@@ -111,3 +111,24 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #45a049;
 }
+#label{
+    color: #fff;
+    font-size: 1.3vw;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/* Link icons
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+*/
